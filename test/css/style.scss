@@ -549,34 +549,37 @@ a {
           }
         }
       }
-    }
-  }
-  .social {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+      .social {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
 
-    .social__item {
-      margin-right: 16px;
+        .social__item {
+          margin-right: 16px;
 
-      &:last-child {
-        margin-right: 0;
-      }
+          &:last-child {
+            margin-right: 0;
+          }
 
-      a {
-        svg {
-          transition: all .3s ease-in-out;
-        }
+          a {
+            svg {
+              transition: all .3s ease-in-out;
+            }
 
-        &:hover {
-          svg {
-            fill: #ef9c41;
+            &:hover {
+              svg {
+                fill: #ef9c41;
+              }
+            }
           }
         }
       }
     }
+  }
+  .social{
+    display: none;
   }
   .copyright {
     font-weight: 400;
